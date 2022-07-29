@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F12BFBA1-77AE-4DEE-913F-335BD973774D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>AllCars.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>AllCars</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>VBScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>AllCars</RootNamespace>
+    <StartupObject>AllCars.frminicio</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AllCars.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AllCars.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alugueis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aluguel\cadastro_veiculos_aluguel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aluguel\devolucao_vei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aluguel\efetua_aluguel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App\barrinhaXD.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App\Calendario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\iCam.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buscas\Localizar_Clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscas\Localizar_Fornecedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscas\Localizar_Funcionarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscas\Localizar_Produtos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscas\Localizar_Veiculo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscas\Localizar_veiculo_vendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscas\Localizar_veiculo_venda_usado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\compra_prod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\compra_vei_novo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras\compra_vei_usado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financas\balanca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financas\consultas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financas\index_fin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financas\pagamentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financas\recebimentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Identificacao\SignIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Identificacao\usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mecanica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\cadastro_clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\cadastro_forn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\cadastro_Funcionarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temas\escolha_tema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temas\Theme.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Vendas\produtos_mecanica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendas\Venda_Prod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendas\Venda_Vei_novo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendas\Venda_vei_usado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Content Include="AllCars.ico" />
+    <EmbeddedResource Include="Alugueis.resx">
+      <DependentUpon>Alugueis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aluguel\cadastro_veiculos_aluguel.resx">
+      <DependentUpon>cadastro_veiculos_aluguel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aluguel\devolucao_vei.resx">
+      <DependentUpon>devolucao_vei.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aluguel\efetua_aluguel.resx">
+      <DependentUpon>efetua_aluguel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Calendario.resx">
+      <DependentUpon>Calendario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscas\Localizar_Clientes.resx">
+      <DependentUpon>Localizar_Clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscas\Localizar_Fornecedores.resx">
+      <DependentUpon>Localizar_Fornecedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscas\Localizar_Funcionarios.resx">
+      <DependentUpon>Localizar_Funcionarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscas\Localizar_Produtos.resx">
+      <DependentUpon>Localizar_Produtos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscas\Localizar_Veiculo.resx">
+      <DependentUpon>Localizar_Veiculo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscas\Localizar_veiculo_vendas.resx">
+      <DependentUpon>Localizar_veiculo_vendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscas\Localizar_veiculo_venda_usado.resx">
+      <DependentUpon>Localizar_veiculo_venda_usado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\compra_prod.resx">
+      <DependentUpon>compra_prod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\compra_vei_novo.resx">
+      <DependentUpon>compra_vei_novo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras\compra_vei_usado.resx">
+      <DependentUpon>compra_vei_usado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financas\balanca.resx">
+      <DependentUpon>balanca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financas\consultas.resx">
+      <DependentUpon>consultas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financas\index_fin.resx">
+      <DependentUpon>index_fin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financas\pagamentos.resx">
+      <DependentUpon>pagamentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financas\recebimentos.resx">
+      <DependentUpon>recebimentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Identificacao\SignIN.resx">
+      <DependentUpon>SignIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Identificacao\usuarios.resx">
+      <DependentUpon>usuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="l_yuki01.Cur">
+      <SubType>Code</SubType>
+      <CustomToolNamespace>icone</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mecanica.resx">
+      <DependentUpon>Mecanica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.ar-BH.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.ar.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.pt-BR.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.pt.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registros\cadastro_clientes.resx">
+      <DependentUpon>cadastro_clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registros\cadastro_forn.resx">
+      <DependentUpon>cadastro_forn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registros\cadastro_Funcionarios.resx">
+      <DependentUpon>cadastro_Funcionarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splash.resx">
+      <DependentUpon>splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temas\escolha_tema.resx">
+      <DependentUpon>escolha_tema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendas\produtos_mecanica.resx">
+      <DependentUpon>produtos_mecanica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendas\Venda_Prod.resx">
+      <DependentUpon>Venda_Prod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendas\Venda_Vei_novo.resx">
+      <DependentUpon>Venda_Vei_novo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendas\Venda_vei_usado.resx">
+      <DependentUpon>Venda_vei_usado.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="App\app.config" />
+    <None Include="My Project\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Relatorios\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OleDb, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.OleDb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
